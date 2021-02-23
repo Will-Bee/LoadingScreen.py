@@ -1,2 +1,1 @@
-# LoadingScreen.py
-Some free template to loading screen i did to learn something idk
+## i am too lazy to write something here
