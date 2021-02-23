@@ -1,0 +1,3 @@
+from LoadingScreen import *
+
+Loading()
