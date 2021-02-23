@@ -1,6 +1,5 @@
 from time import sleep
 from os import system
-from colorama import Fore as f
 
 x = 0 
 
