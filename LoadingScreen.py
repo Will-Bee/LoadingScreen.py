@@ -1,22 +1,23 @@
 from time import sleep
 from os import system
 
-x = 0 
 
-for i in range(100):
-    x +=1
-    y = 100 - x
-    print(x, "/ 100%")
-    print("|", x * "=", "|", y * "-", "|")
-    sleep(0.01)
-    system('cls')
+def Loading():
+    x = 0
+    for i in range(100):
+        x +=1
+        y = 100 - x
+        print(x, "/ 100%")
+        print("|", x * "=", "|", y * "-", "|")
+        sleep(0.01)
+        system('cls')
 
 
 
 
 
 ### importy, os.system pro cls command, time.sleep pro timeout v loadingu, bude nahrazeno v implementaci do kodu ###
-
+### def Loading():                                         |definuje funkci Loading(), lze být použito jako knihovna
 ### x = 0                                                  |načtení hodnoty "x" jako nula, x je počet procent pro template
 ### for i in range(100):                                   |navyšuje hodnotu "i" s každým cyklem, pokud je hodnota pod 100 tak se cyklus opakuje
 ###     x +=1                                              |navyšuje hodnotu "x" neboli procenta
